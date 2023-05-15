@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.content-container {
+  width: 100%;
+  padding: 49.5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  background: #172746;
+}
+
+.main-lookup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+  width: 700px;
+}
+
+.main-lookup-header {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 125%;
+  width: 88%;
+  color: #ffffff;
+}
+
+.strikeout {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 47px;
+  line-height: 125%;
+  position: relative;
+  margin: 0 10px 0 0;
+}
+
+.strikeout::after {
+  background: #ff0000;
+  content: "";
+  height: 0.125em;
+  left: 45px;
+  margin-top: calc(0.125em / 2 * -1);
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+.ninty-nine {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 47px;
+  line-height: 125%;
+  margin: 0 10px;
+  color: #0096ff;
+}
+
+.point-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.point-one,
+.point-two,
+.point-three,
+.point-four,
+.point-five {
+  display: flex;
+  align-items: center;
+}
+
+.point-one p,
+.point-two p,
+.point-three p,
+.point-four p,
+.point-five p {
+  font-family: "Roboto";
+  font-size: 23px;
+  color: #ffffff;
+  margin-left: 40px;
+  letter-spacing: 0.1rem;
+}
+.point-one span,
+.point-two span,
+.point-three span,
+.point-four span,
+.point-five span {
+  color: #0096ff;
+}
+
+.icons {
+  width: 54px;
+  height: 54px;
+}

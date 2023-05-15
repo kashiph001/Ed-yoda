@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 24px;
+  gap: 28px;
+  width: 500px;
+  height: 800px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+.sign-up-subscribe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 160px;
+  width: 501px;
+  height: 61px;
+}
+.sign-up,
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 80px;
+  height: 61px;
+}
+.select-subscription-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 125.3%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3c4852;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 450px;
+  height: 250px;
+}
+.expired-price {
+  background: #e7e7e7;
+  color: #bebebe;
+}
+.expired-radio {
+  width: 27px;
+}
+.inactive-field,
+.expired-price,
+.active-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  isolation: isolate;
+  width: 450px;
+  height: 60px;
+  border: 2px solid #bebebe;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+}
+
+.active-field {
+  background: #d7eddd;
+  border: 2px solid #47ba68;
+}
+.recommended-tag,
+.offer-expired {
+  position: absolute;
+  width: 121px;
+  height: 16px;
+  left: 62px;
+  top: 0px;
+  background: #47ba68;
+  border-radius: 0px 0px 4px 4px;
+  z-index: 2;
+}
+.offer-expired {
+  background: #f77171;
+}
+.recommended-tag p,
+.offer-expired p {
+  position: absolute;
+  width: 71px;
+  height: 14px;
+  left: 22px;
+  top: 1px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 120%;
+  color: #ffffff;
+}
+.text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  width: 425px;
+  height: 33px;
+}
+.subsciption-text {
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #3c4852;
+}
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0px;
+  width: 62px;
+  height: 33px;
+}
+.top-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  font-size: 12px;
+  gap: 6px;
+}
+.top-text p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #3c4852;
+}
+.bottom-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 8px;
+}
+.bottom-text p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  color: #3c4852;
+}
+.bottom-text span {
+  font-family: "Roboto";
+  font-size: 10px;
+  line-height: 146%;
+  color: #bebebe;
+}
+.summary-conatainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 12px;
+  width: 450px;
+  height: 180px;
+  background: #ffffff;
+  border-top: 2px solid #bebebe;
+  margin-top: 12px;
+}
+.subscription-fee,
+.total-amount {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 453px;
+  height: 24px;
+}
+.subscription-fee p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  color: #3c4852;
+  margin-left: 20px;
+}
+.subscription-fee span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  color: #3c4852;
+  margin-right: 20px;
+}
+
+//  Total ammount box
+.total-amount-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #3c4852;
+  margin-left: 20px;
+}
+
+.total-amount span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  margin-right: 20px;
+  color: #3c4852;
+}
+.total-amount-text span {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+// Offer box
+.price-alert-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px 24px;
+  gap: 4px;
+  width: 450px;
+  height: 65px;
+  background: linear-gradient(
+    135deg,
+    rgba(222, 67, 19, 0.2) 0%,
+    rgba(222, 67, 19, 0.2) 0.75%,
+    rgba(222, 67, 19, 0.2) 2.92%,
+    rgba(222, 68, 20, 0.2) 6.37%,
+    rgba(223, 69, 21, 0.2) 10.97%,
+    rgba(223, 72, 22, 0.2) 16.59%,
+    rgba(224, 75, 24, 0.2) 23.1%,
+    rgba(225, 80, 27, 0.2) 30.37%,
+    rgba(227, 86, 31, 0.2) 38.27%,
+    rgba(229, 94, 36, 0.2) 46.66%,
+    rgba(231, 104, 43, 0.2) 55.41%,
+    rgba(235, 117, 51, 0.2) 64.39%,
+    rgba(238, 132, 60, 0.2) 73.47%,
+    rgba(243, 149, 71, 0.2) 82.52%,
+    rgba(248, 169, 84, 0.2) 91.41%,
+    rgba(254, 193, 99, 0.2) 100%
+  );
+  border-radius: 8px;
+  border: 2px solid #de4313;
+}
+.alert-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 410px;
+  height: 24px;
+}
+.alert-header p,
+.alert-header span,
+.offer-validity {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #de4313;
+}
+.alert-header span {
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  color: #3c4852;
+}
+.alert-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 224px;
+  height: 24px;
+}
+.watch-icon {
+  width: 18px;
+}
+.offer-validity {
+  font-weight: 400;
+  font-size: 12px;
+  color: #de4313;
+}
+
+// Razorpay icon
+.razorpay-icon-container {
+  padding: 0px;
+  width: 445px;
+}

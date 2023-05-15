@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif !important;
+  background: #f8f8f8 !important;
+  color: #000;
+  font-size: 16px;
+  line-height: 18.78px;
+}
+.container-fluid {
+  padding-inline: 70px !important;
+  @media (max-width: 991px) {
+    padding-inline: 15px !important;
+  }
+}
+::-webkit-scrollbar {
+  width: 1rem;
+}
+::-webkit-scrollbar-track{
+  background-color: black
+}
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  border : 5px solid transparent;
+  border-radius : 9px;
+  background-clip: content-box;
+}
+

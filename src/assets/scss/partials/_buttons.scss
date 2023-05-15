@@ -1,0 +1,43 @@
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 45px;
+  width: 501px;
+  height: 56px;
+}
+
+.proceed-to-pay,
+.cancel-button ,.join-btn {
+  padding: 8px 36px;
+  width: 200px;
+  height: 50px;
+  background: #47ba68;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.cancel-button {
+  border: 2px solid #f77171;
+  color: #f77171;
+  background-color: white;
+}
+.join-btn {
+  padding: 10px 42px;
+  width: 166px;
+  height: 40px;
+  background: linear-gradient(266.79deg, #0048ff 4.63%, #0096ff 100%);
+  border-radius: 52px;
+  border: none;
+  color: #ffffff;
+}

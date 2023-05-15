@@ -1,0 +1,23 @@
+import React from "react";
+
+const Image = ({
+  src,
+  alt,
+  className,
+  onClick,
+}) => {
+  return (
+    <img
+      src={src}
+      alt={alt}
+      className={className}
+      onClick={onClick}
+      onError={(event) => {
+        event.target.src = ""; 
+      }}
+    />
+  );
+};
+
+
+export default Image;
